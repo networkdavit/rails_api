@@ -14,3 +14,16 @@ User.create([
   password: "admin123",
   admin: true
 ])
+
+Item.create([
+  {
+    title: "shirt",
+    description: "new item!",
+    image_url: "new_url"
+  },
+  {
+    title: "new shirt",
+    description: "Blackshirt",
+    image_url: "new_url"
+  }
+])
